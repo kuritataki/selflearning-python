@@ -10,7 +10,7 @@
 import pyodbc
 
 #[2] IRISに接続
-connection=pyodbc.connect("DRIVER={InterSystems ODBC};SERVER=localhost;PORT=51773;DATABASE=user;UID=_system;PWD=SYS")
+connection=pyodbc.connect("DRIVER={InterSystems IRIS ODBC35};SERVER=localhost;PORT=41773;DATABASE=user;UID=_system;PWD=SYS")
 connection.setencoding(encoding='utf-8')
 
 #[3] Create Tableの実行

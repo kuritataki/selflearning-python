@@ -45,7 +45,11 @@ PyODBC で IRIS への接続を確認できるサンプルコードを含んだ�
 詳細は、[docker-compose.yml](./docker-compose.yml) をご参照ください。
 
 Git展開後、**./ は コンテナ内 /irisdev/app ディレクトリをマウントしています。**
-また、IRISの管理ポータルの起動に使用するWebサーバポートは 427773 が割り当てられています。
+また、IRISの管理ポータルの起動に使用するWebサーバポートは 42773 が割り当てられています。
+
+pyODBC接続時に使用するスーパーサーバーポートは41773が割り当てられています。
+
+ポート指定は、 [docker-compose.yml](./docker-compose.yml)で変更できます。
 
 ```
 git clone このGitのURL
