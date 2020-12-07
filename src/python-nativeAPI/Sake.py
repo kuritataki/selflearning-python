@@ -7,7 +7,7 @@ import pandas as pd
 import irisnative
 
 #[2] IRISへの接続とIRISオブジェクトの作成
-connection = irisnative.createConnection("localhost",51773,"user","_system","SYS")
+connection = irisnative.createConnection("localhost",41773,"user","_system","SYS")
 iris_native = irisnative.createIris(connection)
 
 #[3]読み込んだCSVをグローバルに登録

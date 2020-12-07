@@ -12,7 +12,7 @@
 #[1] irisnative パッケージのインポート
 import irisnative
 #[2]IRISに接続＋IRISオブジェクトの作成
-connection = irisnative.createConnection("localhost",51773,"user","_system","SYS")
+connection = irisnative.createConnection("localhost",41773,"user","_system","SYS")
 iris_native = irisnative.createIris(connection)
 
 #[3] ^employee(1)="田口"の作成
